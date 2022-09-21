@@ -1,0 +1,49 @@
+HELP.md
+.gradle
+build/
+bin/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+/scripts/
+
+/node_modules
+npm-debug.log
+/kz.aster.site.model.Advertisement/
+
+*.sh
+/sitemap.xml
+/xxx-site/sitemap.xml
+
+.DS_Store
+main*.css*
+
+firebase.json
+credentials.json
+/xxx-site/src/main/resources/static/css/*.css
